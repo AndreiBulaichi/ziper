@@ -1,0 +1,5 @@
+Sa se scrie o aplicatie C care arhiveaza si dezarhiveaza in format zip fisierele dintr-un director. In urma rularii aplicatiei se va salva un fisier csv cu delatiile despre compression rate, size of file, etc. Aplicatia trebuie sa indeplineasca urmatoarele cerinte de design:
+- sa foloseasca un template de cmake asemenator cu cel de aici https://github.com/kigster/cmake-project-template
+- se va folosi orice librarie zip de pe github 
+- arhivarea fiecarui fisier se va face pe un thread separat
+- aplicatia va folosi message queues
